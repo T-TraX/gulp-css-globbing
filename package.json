@@ -11,13 +11,17 @@
     {
       "name": "Thomas Creeten",
       "url": "https://github.com/CREEATION"
+    },
+    {
+      "name": "Franco Arza",
+      "url": "https://github.com/arzafran"
     }
   ],
-  "repository": "git://github.com/jsahlen/gulp-css-globbing.git",
-  "bugs": "https://github.com/jsahlen/gulp-css-globbing/issues",
+  "repository": "git://github.com/arzafran/gulp-css-globbing.git",
+  "bugs": "https://github.com/arzafran/gulp-css-globbing/issues",
   "license": {
     "type": "MIT",
-    "url": "http://github.com/jsahlen/gulp-css-globbing/raw/master/LICENSE"
+    "url": "http://github.com/arzafran/gulp-css-globbing/raw/master/LICENSE"
   },
   "main": "index.js",
   "dependencies": {
