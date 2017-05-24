@@ -1,6 +1,6 @@
 {
   "name": "gulp-css-globbing",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A Gulp plugin for globbing CSS @import statements",
   "author": "Johan Sahlén <johan@monospace.se>",
   "contributors": [
@@ -19,21 +19,18 @@
   ],
   "repository": "git://github.com/arzafran/gulp-css-globbing.git",
   "bugs": "https://github.com/arzafran/gulp-css-globbing/issues",
-  "license": {
-    "type": "MIT",
-    "url": "http://github.com/arzafran/gulp-css-globbing/raw/master/LICENSE"
-  },
+  "license": "MIT",
   "main": "index.js",
   "dependencies": {
-    "glob": "^4.0.5",
+    "glob": "^7.1.2",
     "gulp-util": "^3.0.0",
     "vinyl-map": "^1.0.1"
   },
   "devDependencies": {
     "event-stream": "^3.1.7",
-    "mocha": "^1.21.3",
-    "should": "^4.0.4",
-    "vinyl": "^0.3.2"
+    "mocha": "^3.4.2",
+    "should": "^11.2.1",
+    "vinyl": "^2.0.2"
   },
   "scripts": {
     "test": "./node_modules/.bin/mocha"
@@ -44,6 +41,6 @@
     "glob"
   ],
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=6.10.3"
   }
 }
